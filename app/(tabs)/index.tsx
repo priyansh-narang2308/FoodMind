@@ -7,7 +7,6 @@ import CartButton from '@/components/cart-button';
 import { images, offers } from "@/constants";
 
 export default function Index() {
-
   return (
     <SafeAreaView className="flex-1 bg-white">
 
@@ -46,6 +45,7 @@ export default function Index() {
             </View>
           )
         }}
+
         contentContainerClassName="pb-28 px-5"
         ListHeaderComponent={() => (
           <View className='flex-between flex-row w-full my-5 '>
